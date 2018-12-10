@@ -3,8 +3,28 @@
   <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <title>Hola Mundo</title>
+    <style>
+      #titulo {
+        text-align: center;
+      }
+      .descripcion {
+      background-color:silver;
+      }
+      p {
+      font-size:x-large;
+      color: red;    
+      }
+      p strong {
+      color: blue;
+      }
+      p.descripcion {
+      background-color:white;
+      }
+
+   
+    </style>
   </head>
-  <body onclick="alert('quita tus manos de enciama')">
+  <body class="descripcion" onclick="alert('quita tus manos de enciama')">
     <p id="titulo" title="eso es un hola mundo">Hola <strong>Mundo</strong></p>
     <!--esto es la definicion de hola mundo-->
     <p class="descripcion">En informática, un programa Hola mundo es el que
@@ -18,6 +38,5 @@
       programas triviales puedan ser compilados y ejecutados involucra una
       cantidad de trabajo sustancial. Por esta razón, generalmente es usado un
       programa muy simple para probar un nuevo conjunto de herramientas. </p>
-    
   </body>
 </html>
